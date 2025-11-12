@@ -30,7 +30,7 @@ class Config(object):
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://ShuvoBot:ShuvoB@cluster0.refhsw1.mongodb.net/?appName=Cluster0")
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     LOGGER = logging
