@@ -11,9 +11,9 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8561323584:AAEvJW4IP_kFmDtCeXvWt5Q5muVS-Nxwjhc")
+    API_ID = int(os.environ.get("API_ID", "23864777"))
+    API_HASH = os.environ.get("API_HASH", "1ad9abca4b87cee505e4ed3b1a811665")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     MAX_FILE_SIZE = 2194304000
@@ -34,12 +34,12 @@ class Config(object):
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6509218702"))
     SESSION_NAME = "UploaderXNTBot"
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "SUploader_Bot")
     ADL_BOT_RQ = {}
 
     # Set False off else True
